@@ -6,7 +6,6 @@ import { validateSchema, getSpaceUri, clone } from '@snapshot-labs/snapshot.js/s
 import schemas from '@snapshot-labs/snapshot.js/src/schemas';
 import networks from '@snapshot-labs/snapshot.js/src/networks.json';
 import { useSearchFilters } from '@/composables/useSearchFilters';
-import { clone, getSpaceUri } from '@snapshot-labs/snapshot.js/src/utils';
 import defaults from '@/locales/default';
 import { useCopy } from '@/composables/useCopy';
 import { useWeb3 } from '@/composables/useWeb3';
